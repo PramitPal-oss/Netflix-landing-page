@@ -1,0 +1,574 @@
+/**************************/
+/* Bellow 1200px for (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .logo {
+    width: 16rem;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .grid--2--col {
+    gap: 5rem;
+  }
+
+  .feature-tv-text {
+    color: #fff;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+    font-weight: 600;
+    max-width: 52.5rem;
+    max-width: 80%;
+  }
+
+  .header-text {
+    top: 55%;
+  }
+
+  .heading-secondary {
+    font-size: 2rem;
+    line-height: 1.7;
+    letter-spacing: 1px;
+  }
+
+  .input-field {
+    padding: 2.5rem;
+  }
+
+  .form-group {
+    max-width: 74rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-2 {
+    display: flex;
+    width: 20rem;
+    padding: 1.8rem 1rem;
+    font-size: 1.9rem;
+    border: 1px solid red;
+  }
+  .tv-image,
+  .download-img,
+  .image {
+    width: 44rem;
+  }
+
+  video {
+    top: -8px;
+    left: 54px;
+    width: 72%;
+  }
+
+  .boxshot {
+    width: 4.5rem;
+  }
+
+  .animation-box {
+    width: 35rem;
+  }
+
+  .tv-image2 {
+    width: 54rem;
+  }
+
+  .video2 {
+    width: 66%;
+  }
+
+  .container-footer {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-heading {
+    align-self: flex-start;
+  }
+
+  .footer-nav1 {
+    align-self: flex-start;
+  }
+}
+
+/****************BELOW 960PX *******************/
+@media (max-width: 60em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .logo {
+    width: 15rem;
+  }
+
+  .header-text {
+    padding: 2rem 3rem;
+    gap: 1.5rem;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+    max-width: 80%;
+    font-weight: 600;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+    max-width: 75%;
+    margin-left: 2.5rem;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+  .text {
+    font-size: 2.5rem;
+    max-width: 80%;
+    margin-right: 0;
+    line-height: 1.6;
+    letter-spacing: 0.3;
+  }
+
+  .form-group {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .btn-2 {
+    width: 15rem;
+    font-size: 1.5rem;
+    padding: 1.2rem 1rem;
+  }
+
+  .container {
+    padding: 2rem;
+  }
+  .grid--2--col {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+  .feature-tv-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tv-heading {
+    text-align: center;
+    font-size: 4.5rem;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+
+  .order-1 {
+    order: 1;
+  }
+
+  .tv-text {
+    text-align: center;
+    font-size: 2.3rem;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+
+  .tv-image {
+    width: 580px;
+    align-self: start;
+    justify-self: center;
+  }
+
+  .image {
+    position: relative;
+    width: 64rem;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .download-img {
+    width: 100%;
+  }
+
+  .animation {
+    width: 6rem;
+    height: 100%;
+  }
+
+  .boxshot {
+    width: 6rem;
+    padding-left: 0.4rem;
+  }
+
+  .animation-box {
+    position: absolute;
+    width: 46rem;
+    top: 69%;
+    left: 14%;
+    border: 3px solid #222222;
+    transform: translate(0, 0);
+    padding: 1rem;
+  }
+
+  .animation-text {
+    font-size: 2rem;
+  }
+
+  .download {
+    font-size: 1.8rem;
+  }
+
+  video {
+    position: absolute;
+    top: -6px;
+    left: 78px;
+    width: 75%;
+    height: 100%;
+  }
+
+  .image-video {
+    width: 70rem;
+  }
+  .video2 {
+    top: -18%;
+    left: 18%;
+    width: 45rem;
+  }
+
+  .tv-image2 {
+    width: 100%; /*70rem; */
+  }
+
+  .accordian {
+    max-width: 100%;
+  }
+
+  .contentBx {
+    max-width: 100%;
+    width: 75rem;
+  }
+}
+
+/****************BELOW 768PX *******************/
+
+@media (max-width: 48em) {
+  .header-text {
+    padding: 0;
+  }
+
+  .heading-primary {
+    max-width: 80%;
+    font-size: 4.5rem;
+    margin: 0;
+  }
+
+  .heading-secondary {
+    letter-spacing: normal;
+    max-width: 90%;
+    margin-left: 2.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 3rem;
+  }
+
+  .text {
+    font-size: 2rem;
+  }
+
+  .form-group {
+    max-width: 60rem;
+  }
+
+  .input-field {
+    width: 55rem;
+    padding: 2rem;
+  }
+
+  .tv-image {
+    width: 56rem;
+  }
+
+  video {
+    left: 69px;
+    width: 72%;
+    top: -9px;
+  }
+
+  .tv-heading {
+    font-size: 4rem;
+    line-height: 1;
+  }
+
+  .tv-text {
+    font-size: 2.2rem;
+  }
+
+  .download-img {
+    width: 100%;
+  }
+
+  .image {
+    width: 56rem;
+  }
+
+  .boxshot {
+    width: 5.5rem;
+  }
+  .animation-box {
+    width: 38rem;
+    padding: 1rem;
+    top: 68%;
+    left: 15%;
+  }
+
+  .image-video {
+    width: 56rem;
+  }
+  .tv-image2 {
+    width: 100%;
+  }
+
+  .video {
+    width: 300px;
+  }
+
+  .video2 {
+    width: 63%;
+    left: 19%;
+  }
+
+  .footer-nav1 {
+    display: none;
+  }
+
+  .hidden1 {
+    display: block;
+  }
+
+  .footer-heading {
+    align-self: flex-start;
+  }
+
+  .footer-nav2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-self: flex-start;
+    gap: 2rem;
+  }
+}
+
+/****************BELOW 550PX *******************/
+
+@media (max-width: 34.375em) {
+  html {
+    font-size: 50%;
+  }
+
+  .logo {
+    width: 13rem;
+  }
+
+  .icon-world {
+    top: 29%;
+  }
+
+  .main-header {
+    padding: 1.5rem 2rem;
+  }
+
+  .header-text {
+    top: 60%;
+    max-width: 100%;
+    padding: 0rem 2.5rem;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+    max-width: 100%;
+  }
+
+  .center {
+    margin-top: 5rem;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+    max-width: 100%;
+  }
+
+  .text {
+    font-size: 2.5rem;
+    max-width: 85%;
+  }
+
+  .form-group {
+    max-width: 100%;
+    margin-bottom: 10rem;
+  }
+
+  .tv-text {
+    font-size: 2rem;
+  }
+
+  .input-field {
+    max-width: 90%;
+    padding: 1.5rem 2.3rem;
+  }
+
+  .tv-heading {
+    font-size: 3.5rem;
+  }
+
+  .tv-image {
+    max-width: 360px;
+  }
+
+  video {
+    width: 73%;
+    top: -7px;
+    left: 49px;
+    /*  top: 0;
+    left: 0; */
+  }
+
+  .image {
+    width: 350px;
+  }
+
+  .download-img {
+    width: 350px;
+  }
+
+  .animation-box {
+    width: 35rem;
+    padding: 0.5rem;
+    top: 71%;
+    left: 9%;
+  }
+
+  .image-video {
+    width: 350px;
+  }
+
+  .faq-section {
+    padding: 0;
+  }
+  .container {
+    padding: 0;
+  }
+  .contentBx {
+    width: 100%;
+  }
+
+  .accordian {
+    width: 100%;
+  }
+
+  .faq-heading {
+    font-size: 2.5rem;
+  }
+
+  .footer-nav2 {
+    display: none;
+  }
+
+  .hidden2 {
+    display: block;
+  }
+  .footer-nav3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: flex-start;
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 22.5em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .tv-image {
+    max-width: 100%;
+  }
+
+  video {
+    width: 75%;
+    top: 0px;
+    left: 0px;
+    transform: translate(18%, -3%);
+  }
+
+  .image {
+    width: 200px;
+  }
+
+  .download-img {
+    width: 200px;
+  }
+  .animation-box {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    max-height: 50%;
+    border: 2px solid #222222;
+    top: 0px;
+    left: 0px;
+    transform: translate(0%, 189%);
+  }
+
+  .boxshot {
+    width: 45px;
+    height: 40px;
+  }
+
+  .animation {
+    width: 100%;
+    height: 40px;
+  }
+
+  .animation-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 100%;
+  }
+  .download {
+    font-size: 1.5rem;
+  }
+
+  .image-video {
+    max-width: 200px;
+  }
+
+  .tv-image {
+    width: 200px;
+  }
+
+  .video {
+    width: 75%;
+  }
+
+  .video2 {
+    width: 61%;
+    top: 0;
+    left: 0;
+    transform: translate(32%, -19%);
+  }
+} ;

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>
+      Netflix India &mdash; Watch Tv shows Online, Watch Movies Online
+    </title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="navbar">
+        <img src="./img/logo.png" alt="Netflix logo" class="logo" />
+        <div class="nav-link">
+          <div class="language-btn">
+            <div class="select-container">
+              <div class="icon-world">
+                <ion-icon name="globe-outline" class="world-icon"></ion-icon>
+              </div>
+              <select id="dropdown" name="language" class="language" required>
+                <option value="english">English</option>
+                <option value="hindi">हिंदी</option>
+              </select>
+              <div class="icon-down">
+                <ion-icon
+                  name="caret-down-outline"
+                  class="down-icon"
+                ></ion-icon>
+              </div>
+            </div>
+            <a href="#" class="btn">Sign In</a>
+          </div>
+        </div>
+      </nav>
+      <div class="header-text">
+        <h1 class="heading-primary">Unlimited movies, TV shows and more.</h1>
+        <h3 class="heading-secondary">Watch anywhere. Cancel anytime.</h3>
+        <p class="text">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <form class="form-group">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email address"
+            class="input-field"
+          />
+          <a href="#" class="btn-2">
+            Get Started
+            <ion-icon
+              name="chevron-forward-outline"
+              class="right-icon"
+            ></ion-icon>
+          </a>
+        </form>
+      </div>
+    </header>
+    <section class="feature-tv">
+      <div class="container grid--2--col">
+        <div class="feature-tv-text">
+          <h1 class="tv-heading">Enjoy on your TV.</h1>
+          <p class="tv-text">
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </p>
+        </div>
+        <div class="feature-animation">
+          <div class="box">
+            <video
+              src="./img/video/video-tv-in-0819.m4v"
+              autoplay
+              muted
+              loop
+            ></video>
+            <img src="./img/tv.png" alt="tv image" class="tv-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feature-download">
+      <div class="container grid--2--col">
+        <div class="image order-2">
+          <img
+            src="./img/mobile-0819.jpg"
+            alt="A girl from stranger"
+            class="download-img"
+          />
+          <div class="animation-box">
+            <img src="./img/boxshot.png" class="boxshot" />
+            <div class="text">
+              <p class="animation-text">stranger Things</p>
+              <p class="download">Downloading...</p>
+            </div>
+            <div class="download-animation">
+              <img src="./img/download-icon.gif" class="animation" />
+            </div>
+          </div>
+        </div>
+        <div class="feature-tv-text order-1">
+          <h1 class="tv-heading">Download your shows to watch offline.</h1>
+          <p class="tv-text">
+            Save your favourites easily and always have something to watch.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="feature-flexibility">
+      <div class="container grid--2--col">
+        <div class="feature-tv-text">
+          <h1 class="tv-heading">Watch everywhere.</h1>
+          <p class="tv-text">
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV.
+          </p>
+        </div>
+        <div class="feature-animation">
+          <div class="box">
+            <div class="image-video">
+              <img
+                src="./img/appleimage.png"
+                alt="tv image"
+                class="tv-image2"
+              />
+              <div class="video">
+                <video
+                  src="./img/video/video-devices-in.m4v"
+                  autoplay
+                  muted
+                  loop
+                  class="video2"
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feature-download">
+      <div class="container grid--2--col">
+        <div class="image order-2">
+          <img
+            src="./img/feature-4.png"
+            alt="A girl from stranger"
+            class="download-img"
+          />
+        </div>
+        <div class="feature-tv-text order-1">
+          <h1 class="tv-heading">Create profiles for children.</h1>
+          <p class="tv-text">
+            Send children on adventures with their favourite characters in a
+            space made just for them—free with your membership.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="faq-section">
+      <div class="container">
+        <h1 class="tv-heading center">Frequently Asked Questions</h1>
+      </div>
+      <div class="accordian">
+        <div class="contentBx">
+          <div class="label">
+            <h1 class="faq-heading">What is Netflix ?</h1>
+          </div>
+          <div class="label-text">
+            <p class="label-para">
+              Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries and more on
+              thousands of internet-connected devices.
+            </p>
+            <p class="label-para">
+              You can watch as much as you want, whenever you want, without a
+              single ad all for one low monthly price. There's always something
+              new to discover, and new TV shows and movies are added every week!
+            </p>
+          </div>
+        </div>
+        <div class="contentBx">
+          <div class="label">
+            <h1 class="faq-heading">How much does Netflix cost ?</h1>
+          </div>
+          <div class="label-text">
+            <p class="label-para">
+              Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+              streaming device, all for one fixed monthly fee. Plans range from
+              ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+            </p>
+          </div>
+        </div>
+        <div class="contentBx">
+          <div class="label">
+            <h1 class="faq-heading">Where can I watch ?</h1>
+          </div>
+          <div class="label-text">
+            <p class="label-para">
+              Watch anywhere, anytime. Sign in with your Netflix account to
+              watch instantly on the web at netflix.com from your personal
+              computer or on any internet-connected device that offers the
+              Netflix app, including smart TVs, smartphones, tablets, streaming
+              media players and game consoles.
+            </p>
+            <p class="label-para">
+              You can also download your favourite shows with the iOS, Android,
+              or Windows 10 app. Use downloads to watch while you're on the go
+              and without an internet connection. Take Netflix with you
+              anywhere.
+            </p>
+          </div>
+        </div>
+        <div class="contentBx">
+          <div class="label">
+            <h1 class="faq-heading">How do I cancel ?</h1>
+          </div>
+          <div class="label-text">
+            <p class="label-para">
+              Netflix is flexible. There are no annoying contracts and no
+              commitments. You can easily cancel your account online in two
+              clicks. There are no cancellation fees start or stop your account
+              anytime.
+            </p>
+          </div>
+        </div>
+        <div class="contentBx">
+          <div class="label">
+            <h1 class="faq-heading">What can I watch on Netflix ?</h1>
+          </div>
+          <div class="label-text">
+            <p class="label-para">
+              Netflix has an extensive library of feature films, documentaries,
+              TV shows, anime, award-winning Netflix originals, and more. Watch
+              as much as you want, anytime you want.
+            </p>
+          </div>
+        </div>
+        <div class="contentBx">
+          <div class="label">
+            <h1 class="faq-heading">Is Netflix good for kids ?</h1>
+          </div>
+          <div class="label-text">
+            <p class="label-para">
+              The Netflix Kids experience is included in your membership to give
+              parents control while kids enjoy family-friendly TV shows and
+              films in their own space..
+            </p>
+            <p class="label-para">
+              Kids profiles come with PIN-protected parental controls that let
+              you restrict the maturity rating of content kids can watch and
+              block specific titles you don't want kids to see.
+            </p>
+          </div>
+        </div>
+      </div>
+      <p class="text">
+        Ready to watch? Enter your email to create or restart your membership.
+      </p>
+      <form class="form-group">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email address"
+          class="input-field"
+        />
+        <a href="#" class="btn-2">
+          Get Started
+          <ion-icon
+            name="chevron-forward-outline"
+            class="right-icon"
+          ></ion-icon>
+        </a>
+      </form>
+    </section>
+    <footer>
+      <div class="container-footer">
+        <h6 class="footer-heading">
+          Questions? Call
+          <a href="callto:000-800-919-1694" class="heading-link">
+            000-800-919-1694</a
+          >
+        </h6>
+        <div class="footer-nav1">
+          <div class="nav-list">
+            <ul class="nav-text">
+              <li><a href="#" class="footer-link">FAQ</a></li>
+              <li><a href="#" class="footer-link">Investor Relations</a></li>
+              <li><a href="#" class="footer-link">Privacy</a></li>
+              <li><a href="#" class="footer-link">Speed Test</a></li>
+            </ul>
+            <div class="footer-select-container">
+              <div class="footer-icon-world">
+                <ion-icon
+                  name="globe-outline"
+                  class="footer-world-icon"
+                ></ion-icon>
+              </div>
+              <select
+                id="dropdown"
+                name="language"
+                class="footer-language"
+                required
+              >
+                <option value="english">English</option>
+                <option value="hindi">हिंदी</option>
+              </select>
+              <div class="footer-icon-down">
+                <ion-icon
+                  name="caret-down-outline"
+                  class="footer-down-icon"
+                ></ion-icon>
+              </div>
+            </div>
+            <p class="footer-text">Netflix India</p>
+          </div>
+          <div class="nav-list gap">
+            <ul class="nav-text">
+              <li><a href="#" class="footer-link">Help Centre</a></li>
+              <li><a href="#" class="footer-link"> Jobs</a></li>
+              <li><a href="#" class="footer-link">Cookie Preferences</a></li>
+              <li><a href="#" class="footer-link">Legal Notices</a></li>
+            </ul>
+          </div>
+          <div class="nav-list gap">
+            <ul class="nav-text">
+              <li><a href="#" class="footer-link">Account</a></li>
+              <li><a href="#" class="footer-link">Ways to Watch</a></li>
+              <li><a href="#" class="footer-link">Corporate Information</a></li>
+              <li><a href="#" class="footer-link">Only on Netflix</a></li>
+            </ul>
+          </div>
+          <div class="nav-list span">
+            <ul class="nav-text">
+              <li><a href="#" class="footer-link">Media Centre</a></li>
+              <li><a href="#" class="footer-link">Terms of Use</a></li>
+              <li><a href="#" class="footer-link">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-nav2 hidden1">
+          <div class="nav-list">
+            <ul class="nav-text">
+              <li><a href="#" class="footer-link">FAQ</a></li>
+              <li><a href="#" class="footer-link">Media Centre</a></li>
+              <li><a href="#" class="footer-link">Ways to Watch</a></li>
+              <li><a href="#" class="footer-link">Cookie Preferences</a></li>
+              <li><a href="#" class="footer-link">Speed Test</a></li>
+            </ul>
+            <div class="footer-select-container">
+              <div class="footer-icon-world">
+                <ion-icon
+                  name="globe-outline"
+                  class="footer-world-icon"
+                ></ion-icon>
+              </div>
+              <select
+                id="dropdown"
+                name="language"
+                class="footer-language"
+                required
+              >
+                <option value="english">English</option>
+                <option value="hindi">हिंदी</option>
+              </select>
+              <div class="footer-icon-down">
+                <ion-icon
+                  name="caret-down-outline"
+                  class="footer-down-icon"
+                ></ion-icon>
+              </div>
+            </div>
+            <p class="footer-text">Netflix India</p>
+          </div>
+          <div class="nav-list">
+            <ul class="nav-text">
+              <li><a href="#" class="footer-link">Help Centre</a></li>
+              <li><a href="#" class="footer-link">Invest Relations</a></li>
+              <li><a href="#" class="footer-link">Terms of Use</a></li>
+              <li><a href="#" class="footer-link">Corporate Information</a></li>
+              <li><a href="#" class="footer-link">Legal Notices</a></li>
+            </ul>
+          </div>
+          <div class="nav-list">
+            <ul class="nav-text">
+              <li><a href="#" class="footer-link">Account</a></li>
+              <li><a href="#" class="footer-link">Jobs</a></li>
+              <li><a href="#" class="footer-link">Privacy</a></li>
+              <li><a href="#" class="footer-link">Contact Us</a></li>
+              <li><a href="#" class="footer-link">Only on Netflix</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-nav3 hidden2">
+          <div class="nav-list">
+            <ul class="nav-text">
+              <li><a href="#" class="footer-link">FAQ</a></li>
+              <li><a href="#" class="footer-link">Account</a></li>
+              <li><a href="#" class="footer-link">Investor Relations</a></li>
+              <li><a href="#" class="footer-link">Ways to watch</a></li>
+              <li><a href="#" class="footer-link">Privacy</a></li>
+              <li><a href="#" class="footer-link">Corporate Information</a></li>
+              <li><a href="#" class="footer-link">Speed Test</a></li>
+              <li><a href="#" class="footer-link">Only on Netflix</a></li>
+            </ul>
+            <div class="footer-select-container">
+              <div class="footer-icon-world">
+                <ion-icon
+                  name="globe-outline"
+                  class="footer-world-icon"
+                ></ion-icon>
+              </div>
+              <select
+                id="dropdown"
+                name="language"
+                class="footer-language"
+                required
+              >
+                <option value="english">English</option>
+                <option value="hindi">हिंदी</option>
+              </select>
+              <div class="footer-icon-down">
+                <ion-icon
+                  name="caret-down-outline"
+                  class="footer-down-icon"
+                ></ion-icon>
+              </div>
+            </div>
+            <p class="footer-text">Netflix India</p>
+          </div>
+          <div class="nav-list">
+            <ul class="nav-text">
+              <li><a href="#" class="footer-link">Help Centre</a></li>
+              <li><a href="#" class="footer-link">Media Centre</a></li>
+              <li><a href="#" class="footer-link">Jobs</a></li>
+              <li><a href="#" class="footer-link">Terms of Use</a></li>
+              <li><a href="#" class="footer-link">Cookie Preferences</a></li>
+              <li><a href="#" class="footer-link">Contact Us</a></li>
+              <li><a href="#" class="footer-link">Legal Notices</a></li>
+            </ul>
+          </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
